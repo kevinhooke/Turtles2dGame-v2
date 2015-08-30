@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>kh</groupId>
-  <artifactId>turtles</artifactId>
+  <artifactId>turtles-v2</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>Turtles</name>
+  <name>Turtles v2</name>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,20 +15,20 @@
     </dependency>
     <dependency>
       <groupId>kh</groupId>
-      <artifactId>2dgameengine</artifactId>
+      <artifactId>2dgameengine-v2</artifactId>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
   <build>
-    <finalName>Turtles</finalName>
+    <finalName>Turtles-v2</finalName>
   <plugins>
   <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.3.2</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
   </plugins>
