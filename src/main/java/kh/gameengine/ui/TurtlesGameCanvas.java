@@ -127,44 +127,44 @@ public class TurtlesGameCanvas extends GameCanvas {
 		this.spritesArray = new Object[5][6];
 		try {
 			// set up starting positions
-			setPlayer(new RiverCrossingPlayerSprite("char1.gif",
-					"char_right_with_luggage.gif"));
+			setPlayer(new RiverCrossingPlayerSprite("char1.png",
+					"char_right_with_luggage.png"));
 			setPlayerOnLeftBank();
 			spritesArray[0][0] = getPlayer();
 
-			Sprite leftBank = new TestSolidSprite("bank_left.gif");
+			Sprite leftBank = new TestSolidSprite("bank_left.png");
 			leftBank.setX(100);
 			leftBank.setY(150);
 
-			Sprite rightBank = new TestSolidSprite("bank_right.gif");
+			Sprite rightBank = new TestSolidSprite("bank_right.png");
 			rightBank.setX(350);
 			rightBank.setY(150);
 
-			Sprite leftWall = new TestSolidSprite("bank_wall.gif");
+			Sprite leftWall = new TestSolidSprite("bank_wall.png");
 			leftWall.setX(100);
 			leftWall.setY(170);
 
-			Sprite rightWall = new TestSolidSprite("bank_wall_right.gif");
+			Sprite rightWall = new TestSolidSprite("bank_wall_right.png");
 			rightWall.setX(345);
 			rightWall.setY(169);
 
-			Sprite riverfloor = new TestSolidSprite("river_floor.gif");
+			Sprite riverfloor = new TestSolidSprite("river_floor.png");
 			riverfloor.setX(139);
 			riverfloor.setY(339);
 
-			Sprite turtle1 = new TurtleSprite("turtle1.gif");
+			Sprite turtle1 = new TurtleSprite("turtle1.png");
 			turtle1.setX(150);
 			turtle1.setY(150);
 
-			Sprite turtle2 = new TurtleSprite("turtle1.gif");
+			Sprite turtle2 = new TurtleSprite("turtle1.png");
 			turtle2.setX(200);
 			turtle2.setY(150);
 
-			Sprite turtle3 = new TurtleSprite("turtle1.gif");
+			Sprite turtle3 = new TurtleSprite("turtle1.png");
 			turtle3.setX(250);
 			turtle3.setY(150);
 
-			Sprite turtle4 = new TurtleSprite("turtle1.gif");
+			Sprite turtle4 = new TurtleSprite("turtle1.png");
 			turtle4.setX(300);
 			turtle4.setY(150);
 
@@ -178,10 +178,10 @@ public class TurtlesGameCanvas extends GameCanvas {
 			spritesArray[2][1] = riverfloor;
 			spritesArray[2][5] = rightWall;
 
-			fish1 = new FishSprite("fish.gif");
-			fish2 = new FishSprite("fish.gif");
-			fish3 = new FishSprite("fish.gif");
-			fish4 = new FishSprite("fish.gif");
+			fish1 = new FishSprite("fish.png");
+			fish2 = new FishSprite("fish.png");
+			fish3 = new FishSprite("fish.png");
+			fish4 = new FishSprite("fish.png");
 
 			spritesArray[4][1] = fish1;
 			fish1.setX(150);
