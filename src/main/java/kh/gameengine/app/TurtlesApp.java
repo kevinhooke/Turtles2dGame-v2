@@ -11,8 +11,13 @@ import kh.gameengine.ui.TurtlesGameCanvas;
  */
 public class TurtlesApp extends GameFrame {
 
+	public TurtlesApp(int width, int height) {
+		super(width, height);
+	}
+
 	public static void main(String[] args)
 	{
-		new TurtlesApp().startUp( new TurtlesGameCanvas() );
+		//pass width of frame
+		new TurtlesApp(550, 440).startUp( new TurtlesGameCanvas() );
 	}
 }
